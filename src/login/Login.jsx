@@ -4,19 +4,21 @@ const Login = () => {
   return (
     <div className="main">
       <div className="left">
-        <div className="login"></div>
-        <div className="email">
-          <div className="emailwrapper">
-            <div className="emaillabelwrap">
-              <label htmlFor="email1">email</label>
-              <input type="email" className="email1" placeholder="email" />
+        <form>
+          <div className="login">
+            <h1>Login</h1>
+
+            <div className="form-group">
+              <label htmlFor="email">email:</label>
+              <input type="email" name="email" id="email" />
             </div>
-            <div className="pwlabelwrapper">
-              <label htmlFor="pw1">password</label>
-             <input type="password" className="pw" placeholder="password" />
+            <div className="form-group">
+              <label htmlFor="password">password:</label>
+              <input type="password" name="password" id="password" />
             </div>
+            <input type="submit" value="login"/>
           </div>
-        </div>
+        </form>
       </div>
       <div className="right"></div>
     </div>
