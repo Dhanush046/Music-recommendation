@@ -7,11 +7,14 @@ const Login = () => {
         <div className="login"></div>
         <div className="email">
           <div className="emailwrapper">
-            <div className="labelwrap">
+            <div className="emaillabelwrap">
               <label htmlFor="email1">email</label>
               <input type="email" className="email1" placeholder="email" />
             </div>
-            <input type="password" className="pw" placeholder="password" />
+            <div className="pwlabelwrapper">
+              <label htmlFor="pw1">password</label>
+             <input type="password" className="pw" placeholder="password" />
+            </div>
           </div>
         </div>
       </div>

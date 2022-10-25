@@ -56,7 +56,12 @@ label{
     text-align: left;
 
 }
-.labelwrap{
+.emaillabelwrap{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.pwlabelwrapper{
     position: relative;
     display: flex;
     flex-direction: row;
