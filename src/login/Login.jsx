@@ -1,10 +1,11 @@
 import React from "react";
 import "./login.css";
-import logo from "../assets/music.jpg"
+import logo1 from "../assets/arr.jpeg";
+import logo2 from "../assets/maestro.jpeg";
 const Login = () => {
   const eventformhandler = () => {
-    console.log("hello")
-  }
+    console.log("hello");
+  };
   return (
     <div className="main">
       <div className="left">
@@ -35,7 +36,13 @@ const Login = () => {
         </form>
       </div>
       <div className="right">
-        <img src={logo} className="logo1" alt="logo" />
+        <div className="logoarr">
+          <img src={logo1} className="logo1" alt="logo1" />
+        </div>
+        <div className="logoir">
+          <img src={logo2} className="logo2" alt="logo2" />
+        </div>
+        <h2 className="q1">Words make heart light music makes your soul light</h2>
       </div>
     </div>
   );
