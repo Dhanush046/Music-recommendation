@@ -1,12 +1,16 @@
 import React from "react";
 import "./login.css";
+import logo from "../assets/music.jpg"
 const Login = () => {
+  const eventformhandler = () => {
+    console.log("hello")
+  }
   return (
     <div className="main">
       <div className="left">
-        <form>
+        <form className="form">
           <div className="login">
-            <h1>Login</h1>
+            <h1 className="loginname">Login</h1>
 
             <div className="form-group">
               <label htmlFor="email">email:</label>
@@ -16,11 +20,23 @@ const Login = () => {
               <label htmlFor="password">password:</label>
               <input type="password" name="password" id="password" />
             </div>
-            <input type="submit" value="login"/>
+            <nav onClick={eventformhandler}>
+              <ul>
+                <li>
+                  submit
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </li>
+              </ul>
+            </nav>
           </div>
         </form>
       </div>
-      <div className="right"></div>
+      <div className="right">
+        <img src={logo} className="logo1" alt="logo" />
+      </div>
     </div>
   );
 };
