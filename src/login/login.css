@@ -85,14 +85,16 @@ form .login .form-group {
   color: #666;
   font-size: 12px;
   margin-bottom: 5px;
-  transition: 0.4s;
+  font-size: large;
+
 }
 form .login .form-group input {
   display: block;
-  width: 100%;
+  width: 75%;
   padding: 10px 15px;
   background-color: #f8f8f8;
   border-radius: 8px;
+  margin-left: 65px;
 }
 
 /* label{
@@ -136,6 +138,7 @@ nav ul li {
     z-index: 1;
     transition: 0.5s;
     margin: 1em;
+    margin-top: 50px;
 }
 
 nav ul li span {
@@ -183,6 +186,8 @@ nav ul li span:nth-child(4) {
 }
 .logoarr{
     width: 75%;
+    border-radius: 50px;
+    border-color: #f8f8f8;
 }
 .logo2{
     width: 55%;
