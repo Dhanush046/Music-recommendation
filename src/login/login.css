@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,7 +10,8 @@
   width: 50%;
 }
 .main {
-  background-image: url("../assets/bg.jpg");
+  /* background-image: url("../assets/bg.jpg"); */
+  background-image: url("../assets/bg3.jpg");
   justify-content: center;
   background-repeat: center;
   height: 100vh;
@@ -18,36 +20,7 @@
   position: relative;
   display: flex;
 }
-/* .email{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 50%;
-    width: 100%;
-    background-color: white;
-    justify-content: space-around;
-} */
-/* .email1{
-    position: relative;
-    width: 50%;
-    height: 1.5rem;
-    
-} */
-/* .pw{
-    position: relative;
-    width: 50%;
-    height: 1.5rem;
-} */
-/* .emailwrapper{
-    position: relative;
-    display: flex;
-    height: 40%;
-    width: 70%;
-    flex-direction: column;
-    
-} */
+
 form {
   display: flex;
   position: relative;
@@ -57,16 +30,7 @@ form {
   justify-content: center;
   height: 100%;
 }
-/* form:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  z-index: 1;
-} */
+
 form .login {
   height: 35em;
   position: relative;
@@ -82,6 +46,9 @@ form .login {
   flex-direction: column;
   align-items: center;
 }
+.loginname{
+  font-family: 'Roboto', sans-serif;
+}
 form .login .form-group {
   display: block;
   color: rgb(78, 78, 78);
@@ -92,7 +59,7 @@ form .login .form-group {
 .login .form-group label {
   display: block;
   font-weight: 700;
-  color: rgb(78, 78, 78) s;
+  color:black;
   font-size: 13px;
   margin-bottom: 5px;
   font-size: large;
@@ -113,22 +80,7 @@ form .login .form-group input {
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
 }
-/* label{
-    position: relative;
-    width: 30%;
-    text-align: left;
 
-}
-.emaillabelwrap{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-}
-.pwlabelwrapper{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-} */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -136,7 +88,7 @@ nav ul {
 }
 
 nav ul li {
-  --c: #bbbbbb;
+  --c: black;
   color: var(--c);
   font-size: 16px;
   border: 2px solid var(--c);
@@ -161,7 +113,7 @@ nav ul li span {
   position: absolute;
   width: 25%;
   height: 100%;
-  background-color: var(--c);
+  background-color: white;
   transform: translateY(150%);
   border-radius: 50%;
   left: calc((var(--n) - 1) * 25%);
@@ -202,31 +154,11 @@ nav ul li span:nth-child(4) {
   border-radius: 25px;
   border-color: #f8f8f8;
 }
-/* .logo1 {
-  right: -20%;
-  margin-top: 20px;
-  position: relative;
-  border-radius: 30px;
-  width: 100%;
-  height: 80%;
-  z-index: 1;
-}
-.logo2 {
-  margin-top: -20% !important;
-  margin: 20px;
-  position: relative;
-  border-radius: 30px;
-  width: 60%;
-  box-shadow: 20px 0px 0px 20px black;
-  height: 20%;
-  z-index: 3; 
-}*/
+
 .right {
   justify-content: space-around;
   position: relative;
   height: 100%;
   width: 50%;
 }
-.q1 {
-  color: red;
-}
+

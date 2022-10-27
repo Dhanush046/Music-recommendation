@@ -1,5 +1,6 @@
 import React from "react";
 import "./login.css";
+
 const Login = () => {
   const eventformhandler = () => {
     console.log("hello");
@@ -26,7 +27,7 @@ const Login = () => {
             <nav onClick={eventformhandler}>
               <ul>
                 <li>
-                  Login
+                  Sign in
                   <span></span>
                   <span></span>
                   <span></span>
