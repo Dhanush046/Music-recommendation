@@ -1,7 +1,5 @@
 import React from "react";
 import "./login.css";
-import logo1 from "../assets/arr.jpeg";
-import logo2 from "../assets/maestro.jpeg";
 const Login = () => {
   const eventformhandler = () => {
     console.log("hello");
@@ -14,17 +12,21 @@ const Login = () => {
             <h1 className="loginname">Login</h1>
 
             <div className="form-group">
-              <label htmlFor="email" className="em">E-mail:</label>
+              <label htmlFor="email" className="em">
+                E-mail:
+              </label>
               <input type="email" name="email" id="email" />
             </div>
             <div className="form-group">
-              <label htmlFor="password" className="pw">password:</label>
+              <label htmlFor="password" className="pw">
+                Password:
+              </label>
               <input type="password" name="password" id="password" />
             </div>
             <nav onClick={eventformhandler}>
               <ul>
                 <li>
-                  submit
+                  Login
                   <span></span>
                   <span></span>
                   <span></span>
@@ -34,15 +36,6 @@ const Login = () => {
             </nav>
           </div>
         </form>
-      </div>
-      <div className="right">
-        <div className="logoarr">
-          <img src={logo1} className="logo1" alt="logo1" />
-        </div>
-        <div className="logoir">
-          <img src={logo2} className="logo2" alt="logo2" />
-        </div>
-        <h2 className="q1">Words make heart light music makes your soul light</h2>
       </div>
     </div>
   );
