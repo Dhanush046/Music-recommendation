@@ -10,8 +10,8 @@
   width: 50%;
 }
 .main {
-  /* background-image: url("../assets/bg.jpg"); */
-  background-image: url("../assets/bg3.jpg");
+  background-image: url("../assets/bg.jpg");
+  /* background-image: url("../assets/bg3.jpg"); */
   justify-content: center;
   background-repeat: center;
   height: 100vh;
