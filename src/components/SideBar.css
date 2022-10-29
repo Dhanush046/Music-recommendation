@@ -6,9 +6,10 @@
 
 .container {
   width: 100%;
-  height: ;
+  height: 100vh;
   background-color: rgb(18, 15, 45);
   color: aliceblue;
+  justify-content: space-between;
 }
 .podcast {
   padding: 3rem;
@@ -22,7 +23,9 @@
   height: 40px;
 }
 .menu {
-  /* padding: 1rem; */
+  /* border-radius: 10px;
+  border-color: white;
+  border: 10px; */
 }
 .menu > h2 {
   justify-content: start;
@@ -30,7 +33,7 @@
 .menu > ul {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 190px;
   list-style: none;
   justify-content: space-around;
 }
@@ -43,5 +46,50 @@
   flex-direction: row;
 }
 .menu > ul > .same > #logo {
+  width: 20px;
+}
+
+.library > h2 {
+  justify-content: start;
+}
+.library > ul {
+  display: flex;
+  flex-direction: column;
+  height: 190px;
+  list-style: none;
+  justify-content: space-around;
+}
+.library > ul > .same {
+  width: 50%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.library > ul > .same > #logo {
+  width: 20px;
+}
+
+.customize > h2 {
+  /* justify-content: start; */
+  justify-items: left;
+}
+.customize > ul {
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+  list-style: none;
+  justify-content: space-around;
+}
+.customize > ul > .same {
+  width: 50%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.customize > ul > .same > #logo {
   width: 20px;
 }
