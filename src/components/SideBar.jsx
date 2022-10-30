@@ -6,7 +6,7 @@ function SideBar() {
     <div className="container">
       <div className="podcast">
       <img src="https://img.icons8.com/cute-clipart/64/000000/earbud-headphones.png" id="logo"/>
-        <h3>MD-USIC</h3>
+        <h3>DM-USIC</h3>
       </div>
       <div className="menu">
         <h2>Menu</h2>

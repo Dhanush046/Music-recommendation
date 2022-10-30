@@ -7,8 +7,8 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-color: rgb(18, 15, 45);
-  color: aliceblue;
+  background-color: #55bcc9;
+  color: black;
   justify-content: space-between;
 }
 .podcast {
@@ -29,6 +29,7 @@
 }
 .menu > h2 {
   justify-content: start;
+  font-weight: bold;
 }
 .menu > ul {
   display: flex;
@@ -92,4 +93,7 @@
 }
 .customize > ul > .same > #logo {
   width: 20px;
+}
+.lab {
+  font-weight: 500;
 }

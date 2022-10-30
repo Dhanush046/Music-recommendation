@@ -1,6 +1,7 @@
 import React from "react";
 import "./homepage.css";
 import SideBar from "../components/SideBar";
+import Mainbar from "../components/Mainbar";
 
 const Homepage = () => {
   return (
@@ -8,7 +9,9 @@ const Homepage = () => {
       <div className="side-bar">
         <SideBar />
       </div>
-      <div className="right"></div>
+      <div className="home-bar">
+        <Mainbar />
+      </div>
     </div>
   );
 };
