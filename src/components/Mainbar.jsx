@@ -8,7 +8,6 @@ const Mainbar = () => {
         <div className="top-left">
           <ul>
             <li className="same">
-              {/* <img src="https://img.icons8.com/ios/50/000000/new.png" id="logo"/> */}
               <label htmlFor="new" className="lab">
                 New Releases
               </label>
@@ -43,18 +42,33 @@ const Mainbar = () => {
 
       <h2 className="head">TRENDING</h2>
       <div className="mid">
-        <ul>
-          <li className="same">
-            <label htmlFor="listen" className="label">
-              Listen Now
-            </label>
-          </li>
-          <li className="same">
-            <label htmlFor="fav" className="label">
-              Add To Favourites
-            </label>
-          </li>
-        </ul>
+        <h2>On Purpose</h2>
+        <div className="mid-text1">
+          <a href="ha" className="a-text">
+            Listen Now
+          </a>
+        </div>
+        <div className="mid-text2">
+          <a href="ha" className="a-text">
+            Add To Favourites
+          </a>
+        </div>
+      </div>
+      <h2 className="recplay">Recently Played</h2>
+      <div className="middle">
+        <div className="same1">
+          <h3 className="title">Elevation</h3>
+          <h5 className="sub">Ani</h5>
+        </div>
+        <div className="same2">
+          <h3 className="title">Daily Podcast</h3>
+        </div>
+        <div className="same3">
+          <h3 className="title">Daily Show</h3>
+        </div>
+        <div className="same4">
+          <h3 className="title">Mindset</h3>
+        </div>
       </div>
     </div>
   );
