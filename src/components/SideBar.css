@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 100%;
+.container1 {
+  width: 10%;
   height: 100vh;
   background-color: #55bcc9;
   color: black;
@@ -96,6 +96,7 @@
 }
 .lab {
   font-weight: 500;
+  text-decoration: none;
 }
 .customize{
   margin-top: 70px;
@@ -105,5 +106,9 @@
 }
 
 .label{
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+.same5{
+  text-decoration: none;
+  color: black;
 }

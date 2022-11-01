@@ -1,11 +1,15 @@
 import React from "react";
 import "./SideBar.css";
+import { Link } from "react-router-dom";
 
 function SideBar() {
   return (
-    <div className="container">
+    <div className="container1">
       <div className="podcast">
-      <img src="https://img.icons8.com/cute-clipart/64/000000/earbud-headphones.png" id="logo"/>
+        <img
+          src="https://img.icons8.com/cute-clipart/64/000000/earbud-headphones.png"
+          id="logo"
+        />
         <h3>DM-USIC</h3>
       </div>
       <div className="menu">
@@ -17,36 +21,36 @@ function SideBar() {
               src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png"
               id="logo"
             />
-            <label htmlFor="search" className="sr lab">
+            <a href="/" className="same5">
               Search
-            </label>
+            </a>
           </li>
           <li className="same">
             <img
               src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/ffffff/external-trending-content-creator-tanah-basah-glyph-tanah-basah.png"
               id="logo"
             />
-            <label htmlFor="trending" className="trend lab">
+            <a href="/" className="same5">
               Trending
-            </label>
+            </a>
           </li>
           <li className="same">
             <img
               src="https://img.icons8.com/wired/64/ffffff/musical-notes.png"
               id="logo"
             />
-            <label htmlFor="Genre" className="gr lab">
+            <a href="/" className="same5">
               Genre
-            </label>
+            </a>
           </li>
           <li className="same">
             <img
               src="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/64/ffffff/external-album-essential-element-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png"
               id="logo"
             />
-            <label htmlFor="album" className="al lab">
+            <a href="/" className="same5">
               Album
-            </label>
+            </a>
           </li>
         </ul>
       </div>
@@ -58,24 +62,27 @@ function SideBar() {
               src="https://img.icons8.com/ios/50/ffffff/smart-playlist.png"
               id="logo"
             />
-            <label htmlFor="playlist" className="play lab">
+            <a href="/" className="same5">
               Playlist
-            </label>
+            </a>
           </li>
           <li className="same">
             <img
               src="https://img.icons8.com/ios/50/ffffff/add-to-favorites--v1.png"
               id="logo"
             />
-            <label htmlFor="favourites" className="fav lab">
+            <a href="/" className="same5">
               Favourites
-            </label>
+            </a>
           </li>
           <li className="same">
-          <img src="https://img.icons8.com/external-sbts2018-solid-sbts2018/58/ffffff/external-most-recent-social-media-sbts2018-solid-sbts2018.png" id="logo"/>
-            <label htmlFor="recent" className="rec lab">
+            <img
+              src="https://img.icons8.com/external-sbts2018-solid-sbts2018/58/ffffff/external-most-recent-social-media-sbts2018-solid-sbts2018.png"
+              id="logo"
+            />
+            <a href="/" className="same5">
               Recent
-            </label>
+            </a>
           </li>
         </ul>
       </div>
@@ -83,16 +90,22 @@ function SideBar() {
         <h2>Customize</h2>
         <ul>
           <li className="same">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/guest-male--v1.png" id="logo"/>
-            <label htmlFor="account" className="acc lab">
-              Account
-            </label>
+            <img
+              src="https://img.icons8.com/ios-filled/50/ffffff/guest-male--v1.png"
+              id="logo"
+            />
+            <a href="/" className="same5">
+              Setting
+            </a>
           </li>
           <li className="same">
-          <img src="https://img.icons8.com/dotty/80/ffffff/window-settings.png" id="logo"/>
-            <label htmlFor="settings" className="set lab">
-              Settings
-            </label>
+            <img
+              src="https://img.icons8.com/dotty/80/ffffff/window-settings.png"
+              id="logo"
+            />
+            <a href="/" className="same5">
+              Account
+            </a>
           </li>
         </ul>
       </div>

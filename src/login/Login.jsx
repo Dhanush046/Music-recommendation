@@ -1,44 +1,54 @@
 import React from "react";
+// import { Link } from "react-router-dom";
 import "./login.css";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
   const eventformhandler = () => {
     console.log("hello");
   };
+  const handleSubmit = () => {
+    navigate("/home");
+  };
   return (
-    <div className="main">
-      <div className="left">
-        <form className="form">
-          <div className="login">
-            <h1 className="loginname">Login</h1>
+    <>
+      <div className="main">
+        <div className="left">
+          <form onSubmit={handleSubmit} className="form">
+            <div className="login">
+              <h1 className="loginname">Login</h1>
 
-            <div className="form-group">
-              <label htmlFor="email" className="em">
-                E-mail:
-              </label>
-              <input type="email" name="email" id="email" />
+              <div className="form-group">
+                <label htmlFor="email" className="em">
+                  E-mail:
+                </label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div className="form-group">
+                <label htmlFor="password" className="pw">
+                  Password:
+                </label>
+                <input type="password" name="password" id="password" />
+              </div>
+              <button>
+                <nav>
+                  <ul>
+                    <li>
+                      Sign in
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </li>
+                  </ul>
+                </nav>
+              </button>
             </div>
-            <div className="form-group">
-              <label htmlFor="password" className="pw">
-                Password:
-              </label>
-              <input type="password" name="password" id="password" />
-            </div>
-            <nav onClick={eventformhandler}>
-              <ul>
-                <li>
-                  Sign in
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
