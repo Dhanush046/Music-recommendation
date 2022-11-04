@@ -7,11 +7,16 @@ const Mainbar = () => {
     <div className="main1">
       <div className="top">
         <div className="top-left">
-          <ul>
+          <a href="/search" className="samea">
+            New Releases
+          </a>
+          <a href="/search" className="samea">
+            Live Podcast
+          </a>
+
+          {/* <ul>
             <li className="samea">
-              <label htmlFor="new" className="lab">
-                New Releases
-              </label>
+              <a href="/">New releases</a>
             </li>
             <li className="samea">
               <label htmlFor="shuffle" className="lab">
@@ -23,10 +28,16 @@ const Mainbar = () => {
                 Live Podcast
               </label>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="top-right">
-          <ul>
+          <a href="/" className="sameb">
+            Upgrade Plan
+          </a>
+          <a href="/" className="sameb">
+            User Name
+          </a>
+          {/* <ul>
             <li>
               <label htmlFor="upgrade" className="lab">
                 Upgrade Plan
@@ -37,10 +48,10 @@ const Mainbar = () => {
                 User Name
               </label>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
-      
+
       <h2 className="head">TRENDING</h2>
       <div className="mid">
         <h2>On Purpose</h2>
@@ -57,11 +68,21 @@ const Mainbar = () => {
       </div>
       <h2 className="recplay">Recently Played</h2>
       <div className="middle">
-        <Card title={"Romantic"} />
-        <Card title={"India's Best"} />
-        <Card title={"Daily Mix"} />
-        <Card title={"Your Top Mixes"} />
-        <Card title={"Made For You"} />
+        <a href="/" className="ct">
+          <Card title={"Romantic"} />
+        </a>
+        <a href="/" className="ct">
+          <Card title={"India's Best"} />
+        </a>
+        <a href="/" className="ct">
+          <Card title={"Daily Mix"} />
+        </a>
+        <a href="/" className="ct">
+          <Card title={"Your Top Mixes"} />
+        </a>
+        <a href="/" className="ct">
+          <Card title={"Made For You"} />
+        </a>
         {/* {titles.map((prod, index) => {
           return (
             <div key={index}>

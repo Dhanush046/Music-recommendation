@@ -23,11 +23,11 @@ function SearchBar() {
       <nav>
         <img src={Rarrow} alt="" />
         <div className="search">
-          <input className="searchInput" type="text" />
+          <input className="searchInput" type="text" placeholder="What do you want to listen to?" />
         </div>
       </nav>
       <body>
-        <h1>Browse all</h1>
+        <h1 id="H1">Browse all</h1>
         <div className="container2">
           {broseList.map((item, key) => {
             return (
