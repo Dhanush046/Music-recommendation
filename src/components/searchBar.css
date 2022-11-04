@@ -37,10 +37,10 @@
   body h1 {
     margin-left: 50px;
   }
-  body {
+  /* body {
     width: 90%;
     margin: 10px auto;
-  }
+  } */
   .container2 {
     display: grid;
     grid-template-columns: auto auto auto;
