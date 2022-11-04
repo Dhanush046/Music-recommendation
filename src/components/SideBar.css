@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
+
 .container1 {
+  align-items: center;
   width: 10%;
   height: 100vh;
   background-color: #55bcc9;
@@ -12,6 +14,8 @@
   justify-content: space-between;
 }
 .podcast {
+  display: flex;
+  position: relative;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -23,9 +27,7 @@
   height: 40px;
 }
 .menu {
-  /* border-radius: 10px;
-  border-color: white;
-  border: 10px; */
+  align-items: center;
 }
 .menu > h2 {
   justify-content: center;

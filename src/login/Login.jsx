@@ -31,7 +31,7 @@ const Login = () => {
                 </label>
                 <input type="password" name="password" id="password" />
               </div>
-              <button>
+              <button className="butn">
                 <nav>
                   <ul>
                     <li>

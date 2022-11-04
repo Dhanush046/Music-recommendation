@@ -7,10 +7,16 @@ function SearchBar() {
   let broseList = [
     "Podcast",
     "Tamil",
-    "Telugu",
+    "Hindi",
     "English",
     "Live Events",
     "New Releases",
+    "Made For You",
+    "Fresh Finds",
+    "Workout",
+    "At Home",
+    "Sleep",
+    "Travel",
   ];
   return (
     <div className="searchPage">
@@ -26,7 +32,8 @@ function SearchBar() {
           {broseList.map((item, key) => {
             return (
               <div className="card" id={key}>
-                <h2 className="item">{item}</h2>
+                {/* <h2 className="item">{item}</h2> */}
+                <a className="item" href="/">{item}</a>
               </div>
             );
           })}

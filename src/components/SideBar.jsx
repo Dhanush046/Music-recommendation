@@ -21,7 +21,7 @@ function SideBar() {
               src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png"
               id="logo"
             />
-            <a href="/" className="same5">
+            <a href="/search" className="same5">
               Search
             </a>
           </li>
